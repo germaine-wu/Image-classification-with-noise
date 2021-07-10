@@ -34,4 +34,4 @@ Yts = dataset[’Yts’]
 
 ## Performance Evaluation
 The performance of each classifier will be evaluated with the top-1 accuracy metric, that is,  
-$$top-1 accuracy=/frab{number of correctly classified examples}{total number of test examples} *100% $$
+$$top-1 accuracy=\frac{number of correctly classified examples}{total number of test examples} *100/% $$

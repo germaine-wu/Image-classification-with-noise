@@ -5,17 +5,17 @@ The objective of this project is to build an transition matrix estimator and two
 Three input datasets are given. For each dataset, the training and validation data contains class-conditional random label noise, whereas the test data is clean. I build at least two different classifiers trained and validated on the noisy data, that have a good classification accuracy on the clean test data. I build an transition matrix estimator to estimate the transition matrix. Then, employ estimated transition matrix for classification. 
 
 ## Dataset Description
-###FashionMINIST0.5.npz
+#FashionMINIST0.5.npz
 * Number of the training and validation examples n = 18000.
 * Number of the test examples m = 3000.
 * The shape of each example image shape = (28 × 28).
 
-###FashionMINIST0.6.npz
+#FashionMINIST0.6.npz
 * Number of the training and validation examples n = 18000. 
 * Number of the test examples m = 3000.
 * The shape of each example image shape = (28 × 28).
 
-###CIFAR.npz
+#CIFAR.npz
 * Number of the training and validation examples n = 15000. 
 * Number of the test examples m = 3000.
 * The shape of each example image shape = (32 × 32 × 3).
